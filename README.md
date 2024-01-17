@@ -39,7 +39,7 @@ The scope of this survey is mainly defined by following aspects.
 - [Model Adaptation](#Model-Adaptation)
   - Before Deployment
   - After Deployment
-- [Challenges and Directions](#Challenge- and-Directions)
+- [Challenges and Directions](#Challenge-and-Directions)
   - Framework/Platform Development
   - Datasets/Benchmarks
   - Integration with Large Models
