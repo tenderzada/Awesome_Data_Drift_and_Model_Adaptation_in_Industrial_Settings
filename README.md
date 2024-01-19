@@ -30,7 +30,7 @@ The scope of this survey is mainly defined by following aspects.
   - Industrial Fault Diagnosis
   - Remaining Life Prediction
   - Laser Processing
-  - Autonomous AGV Navigation
+  - Planing and Control for Autonomous Driving
   - Biomorphic Robotic Motion Control
   - Additive Manufacturing Process Monitoring and Control
   - Gesture Recognition Based on Hydrogel Electronic Skin 
@@ -80,11 +80,39 @@ The goal is to present a simple and intuitive overview of the definition, types,
 
 ## Model Adaptation
 ### Before Deployment
-Continual Learning (by He, Li), Meta-Learning, Federated Learning
+#### Continual Learning (by He)
+
+Memory efficient continual learning with transformers. *[NeurIPS'22]* [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/4522de4178bddb36b49aa26efad537cf-Paper-Conference.pdf)
+
+#### Meta-Learning
+
+#### Federated Learning
+
+Flower: A friendly federated learning research framework. *[arXiv'20]* [[Paper]](https://arxiv.org/pdf/2007.14390) [[Code]](https://github.com/adap/flower)
+
+Fedml: A research library and benchmark for federated machine learning. *[arXiv'20]* [[Paper]](https://arxiv.org/pdf/2007.13518) [[Code]](https://github.com/FedML-AI/FedML)
+
 ### After Deployment
-Parameter-Efficient: Prompt Adapter, LoRA, Prefix tuning
-Resource-Efficient: Edge-Cloud Collaboration (by Chen), Test-Time Training, Transfer Learning
-Data-Efficient: Data Selection Mechanisms Based on Gradients, Entropy, Data Annotation (Language Models, Pseudo-Label Generation)
+
+[Serving on Edge]
+
+#### Parameter-Efficient
+
+e.g., Prompt Adapter, LoRA, Prefix tuning
+
+#### Resource-Efficient
+
+e.g., Edge-Cloud Collaboration (by Chen), Test-Time Adaptation, Transfer Learning
+
+EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge. *[SenSys'23]* [[Paper]](https://yanzhenyu.com/assets/pdf/EdgeFM-SenSys23.pdf)
+
+#### Data-Efficient
+
+e.g., Data Selection Mechanisms Based on Gradients, Entropy, Data Annotation (Language Models, Pseudo-Label Generation)
+
+[Serving on Cloud]
+
+Towards Edge-Cloud Collaborative Machine Learning: A  Quality-aware Task Partition Framework.[[paper]]([Towards Edge-Cloud Collaborative Machine Learning: A Quality-aware Task Partition Framework | Proceedings of the 31st ACM International Conference on Information & Knowledge Management](https://dl.acm.org/doi/abs/10.1145/3511808.3557080))
 
 ## Challenges and Directions
 ### Framework/Platform Development
