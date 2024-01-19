@@ -112,7 +112,7 @@ e.g., Data Selection Mechanisms Based on Gradients, Entropy, Data Annotation (La
 
 [Serving on Cloud]
 
-Towards Edge-Cloud Collaborative Machine Learning: A  Quality-aware Task Partition Framework.[[paper]]([Towards Edge-Cloud Collaborative Machine Learning: A Quality-aware Task Partition Framework | Proceedings of the 31st ACM International Conference on Information & Knowledge Management](https://dl.acm.org/doi/abs/10.1145/3511808.3557080))
+Towards Edge-Cloud Collaborative Machine Learning: A  Quality-aware Task Partition Framework.[[paper]](https://dl.acm.org/doi/abs/10.1145/3511808.3557080)
 
 ## Challenges and Directions
 ### Framework/Platform Development
