@@ -5,6 +5,8 @@ This repo contains the paper list and figures for [A Survey of Data Drift and Mo
 
 xxx
 
+![framework v1](images/framework%20v1.png)
+
 ## Scope and rationales
 
 The scope of this survey is mainly defined by following aspects.
