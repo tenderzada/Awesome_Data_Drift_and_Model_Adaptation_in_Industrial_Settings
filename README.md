@@ -80,6 +80,8 @@ The scope of this survey is mainly defined by following aspects.
 ## Definition of data drift
 The goal is to present a simple and intuitive overview of the definition, types, and case studies of data drift. Introducing related concepts: Out-Of-Distribution (OOD), Long-Tail Distribution, Non-IID, and Few-Shot Learning.
 
+TODO： 给出一个示意图，代表不同的检测方法在cifar10数据集的检测效果。
+
 ## Model Adaptation
 ### Before Deployment
 #### Continual Learning (by He)
@@ -115,6 +117,8 @@ e.g., Data Selection Mechanisms Based on Gradients, Entropy, Data Annotation (La
 [Serving on Cloud]
 
 Towards Edge-Cloud Collaborative Machine Learning: A  Quality-aware Task Partition Framework.[[paper]](https://dl.acm.org/doi/abs/10.1145/3511808.3557080)
+
+ECLM: Efficient Edge-Cloud Collaborative Learning with Continuous Environment Adaptation.[[paper]]()
 
 ## Challenges and Directions
 ### Framework/Platform Development
