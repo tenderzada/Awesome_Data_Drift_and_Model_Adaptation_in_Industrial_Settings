@@ -5,7 +5,7 @@ This repo contains the paper list and figures for [A Survey of Data Drift and Mo
 
 总体框架~~~
 
-<img src="images/framework%20v3.png" style="zoom:33%;" />
+<img src="images/framework%20v4.png" style="zoom: 33%;" />
 
 ## Scope and rationales
 
