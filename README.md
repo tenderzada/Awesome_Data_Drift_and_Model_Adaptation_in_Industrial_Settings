@@ -57,13 +57,13 @@ The scope of this survey is mainly defined by following aspects.
 
 （剩余寿命预测）
 
-### Laser Processing
+### Laser Micro/Nano Processing
 
 （激光微纳加工)
 
 ### Planing and Control for Autonomous Driving
 
-（自动驾驶规划与控制，自动清扫车）
+（自动驾驶规划与控制，e.g., 自动清扫车）
 
 ### Biomorphic Robotic Motion Control
 
@@ -75,26 +75,26 @@ The scope of this survey is mainly defined by following aspects.
 
 ###  Gesture Recognition Based on Hydrogel Electronic Skin 
 
-（水凝胶电子皮肤应用、手势识别）
+（水凝胶电子皮肤应用、e.g., 手势识别）
 
 ## Definition of data drift
 The goal is to present a simple and intuitive overview of the definition, types, and case studies of data drift. Introducing related concepts: Out-Of-Distribution (OOD), Long-Tail Distribution, Non-IID, and Few-Shot Learning.
 
 TODO： 给出一个示意图，代表不同的检测方法在cifar10数据集的检测效果。
 
-## Model Adaptation
+## Short-term Drift Adaptation Strategies
 ### Before Deployment
-#### Continual Learning (by He)
+#### Transfer Learning
 
-Memory efficient continual learning with transformers. *[NeurIPS'22]* [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/4522de4178bddb36b49aa26efad537cf-Paper-Conference.pdf)
-
-#### Meta-Learning
+#### Domain Adaptation
 
 #### Federated Learning
 
 Flower: A friendly federated learning research framework. *[arXiv'20]* [[Paper]](https://arxiv.org/pdf/2007.14390) [[Code]](https://github.com/adap/flower)
 
 Fedml: A research library and benchmark for federated machine learning. *[arXiv'20]* [[Paper]](https://arxiv.org/pdf/2007.13518) [[Code]](https://github.com/FedML-AI/FedML)
+
+#### Knowledge Distillation
 
 ### After Deployment
 
@@ -114,11 +114,37 @@ EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge. *[SenSys'
 
 e.g., Data Selection Mechanisms Based on Gradients, Entropy, Data Annotation (Language Models, Pseudo-Label Generation)
 
+#### Test Time Adaptation
+
+#### Gradual Domain Adaptation
+
 [Serving on Cloud]
+
+#### Edge Cloud Collaboration
 
 Towards Edge-Cloud Collaborative Machine Learning: A  Quality-aware Task Partition Framework.[[paper]](https://dl.acm.org/doi/abs/10.1145/3511808.3557080)
 
 ECLM: Efficient Edge-Cloud Collaborative Learning with Continuous Environment Adaptation.[[paper]]()
+
+# Long-term Drift Adaptation Strategies
+
+### Continual/Lifelong Learning
+
+Memory efficient continual learning with transformers. *[NeurIPS'22]* [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/4522de4178bddb36b49aa26efad537cf-Paper-Conference.pdf)
+
+#### Regularization Techniques for Model Adaptation
+
+#### Parameter Isolation
+
+#### Replay Methods
+
+#### Analytic Learning
+
+### Learn from Model
+
+#### Model reuse
+
+#### Meta learning
 
 ## Challenges and Directions
 ### Framework/Platform Development
