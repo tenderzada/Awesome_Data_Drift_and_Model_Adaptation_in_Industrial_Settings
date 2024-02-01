@@ -31,16 +31,19 @@ The scope of this survey is mainly defined by following aspects.
 - [Industrial Applications](#Industrial-Applications)
   - Industrial Fault Diagnosis
   - Remaining Life Prediction
-  - Laser Processing
+  - Laser Micro/Nano Processing
   - Planing and Control for Autonomous Driving
   - Biomorphic Robotic Motion Control
   - Additive Manufacturing Process Monitoring and Control
   - Gesture Recognition Based on Hydrogel Electronic Skin 
-
 - [Definition of data drift](#Definition-of-data-drift)
-- [Model Adaptation](#Model-Adaptation)
+- [Short-term Drift Adaptation Strategies](#Short-term Drift Adaptation Strategies)
   - Before Deployment
   - After Deployment
+- [Long-term Drift Adaptation Strategies](#Long-term Drift Adaptation Strategies)
+  - Continual/Lifelong Learning
+  - Learn from Model
+
 - [Challenges and Directions](#Challenge-and-Directions)
   - Framework/Platform Development
   - Datasets/Benchmarks
@@ -84,6 +87,9 @@ TODO： 给出一个示意图，代表不同的检测方法在cifar10数据集�
 
 ## Short-term Drift Adaptation Strategies
 ### Before Deployment
+
+Concept Drift Adaptation by exploiting Drift Type.*[ACM Transactions on Knowledge Discovery from Data 2023]*[[paper]([Concept Drift Adaptation by Exploiting Drift Type | ACM Transactions on Knowledge Discovery from Data](https://dl.acm.org/doi/abs/10.1145/3638777))]
+
 #### Transfer Learning
 
 #### Domain Adaptation
@@ -122,9 +128,9 @@ e.g., Data Selection Mechanisms Based on Gradients, Entropy, Data Annotation (La
 
 #### Edge Cloud Collaboration
 
-Towards Edge-Cloud Collaborative Machine Learning: A  Quality-aware Task Partition Framework.[[paper]](https://dl.acm.org/doi/abs/10.1145/3511808.3557080)
+Towards Edge-Cloud Collaborative Machine Learning: A Quality-aware Task Partition Framework.[[paper]](https://dl.acm.org/doi/abs/10.1145/3511808.3557080)
 
-ECLM: Efficient Edge-Cloud Collaborative Learning with Continuous Environment Adaptation.[[paper]]()
+ECLM: Efficient Edge-Cloud Collaborative Learning with Continuous Environment Adaptation.[[paper]](https://arxiv.org/abs/2311.11083)
 
 # Long-term Drift Adaptation Strategies
 
